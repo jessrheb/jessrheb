@@ -1,4 +1,4 @@
-```
+```typescript
 class SoftwareEngineer {
   readonly firstName: string = 'Jessicah';
   readonly role: string = 'Technical Assistant';
@@ -33,6 +33,6 @@ class SoftwareEngineer {
   }
 ```
 
-```
+```typescript
 const jessi = new SoftwareEngineer()
 jessi.greet()
