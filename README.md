@@ -1,20 +1,19 @@
 ```typescript
 class SoftwareEngineer {
-  readonly firstName: string = 'Jessicah';
-  readonly role: string = 'Technical Assistant';
-  readonly company: string = 'CESAR';
-  readonly spokenLanguages: string[] = ['pt-BR', 'en-US'];
+  firstName: string = 'Jessicah';
+  role: string = 'Technical Assistant';
+  company: string = 'CESAR';
+  languages: string[] = ['pt-BR', 'en-US'];
+  techStack: TechStack[] = ['Front-End'];
 
-  readonly techStack: TechStack[] = ['Front-End'];
-
-  readonly skills: SkillSet = {
+  skills: SkillSet = {
     languages: ['TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'SCSS'],
     frameworks: ['Angular'],
     libraries: ['Angular Material', 'RxJS'],
     tools: ['Git', 'Angular CLI', 'SonarQube'],
   };
 
-  readonly currentState: CurrentState = {
+  currentStatus: CurrentStatus = {
     focus: 'Reactive, readable web applications built with Angular',
     learning: ['NgRx', 'Vitest', 'Advanced Angular design patterns'],
     inProgress: {
